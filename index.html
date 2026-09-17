@@ -323,6 +323,17 @@
       <div class="proj">
         <div class="pid">PROJ‑02</div>
         <div>
+          <h3>Home SOC Lab: Detection Case Studies</h3>
+          <p class="desc">A self-built home SOC lab (VirtualBox: Windows Server target, Kali Linux attacker, Splunk Enterprise SIEM on Ubuntu) used to generate, capture, and detect two real attacker techniques end-to-end. Scenario 1 is a WinRM brute-force credential attack (Windows Security auditing, MITRE T1110.001); Scenario 2 is an obfuscated PowerShell execution simulating post-compromise activity (Sysmon process creation, MITRE T1059.001). Each scenario is documented with the raw log evidence, the Splunk detection query built to surface it, and remediation recommendations.</p>
+          <div class="tools"><span>Splunk Enterprise</span><span>Sysmon</span><span>Windows Server</span><span>Kali Linux</span><span>CrackMapExec</span><span>Atomic Red Team</span><span>MITRE ATT&CK</span></div>
+          <div class="links"><a href="#">Write-up <span class="edit-note">[link]</span></a></div>
+        </div>
+        <div class="status done">done</div>
+      </div>
+
+      <div class="proj">
+        <div class="pid">PROJ‑03</div>
+        <div>
           <h3>Web Application Vulnerability Scanner</h3>
           <p class="desc">A scanner that crawls a target application and flags common OWASP Top 10 issues — injection points, misconfigured headers, exposed endpoints — with a generated findings report.</p>
           <div class="tools"><span>Python</span><span>OWASP Top 10</span><span>requests / BeautifulSoup</span><span>Burp Suite</span></div>
@@ -332,7 +343,7 @@
       </div>
 
       <div class="proj">
-        <div class="pid">PROJ‑03</div>
+        <div class="pid">PROJ‑04</div>
         <div>
           <h3>Secure CI/CD Pipeline</h3>
           <p class="desc">A GitHub Actions pipeline with SAST, dependency/SCA scanning, and secret detection gating every merge — showing security built into the dev workflow, not bolted on after.</p>
@@ -343,7 +354,7 @@
       </div>
 
       <div class="proj">
-        <div class="pid">PROJ‑04</div>
+        <div class="pid">PROJ‑05</div>
         <div>
           <h3>Professional Penetration Test Report</h3>
           <p class="desc">A full pentest engagement on a deliberately vulnerable target, documented to industry standard — scope, methodology, findings by severity, and remediation guidance.</p>
@@ -354,7 +365,7 @@
       </div>
 
       <div class="proj">
-        <div class="pid">PROJ‑05</div>
+        <div class="pid">PROJ‑06</div>
         <div>
           <h3>Elysian Vault — Secure Document Sharing Platform</h3>
           <p class="desc">A full-stack secure document management platform: server-side AES-256-CTR file encryption, MFA, a PIN-protected vault with self-destructing files, granular share links with expiry, role-based team collaboration, and an admin dashboard with system-wide activity logging.</p>
@@ -388,6 +399,8 @@
           <li>Nmap</li>
           <li>Metasploit</li>
           <li>Wireshark</li>
+          <li>Splunk</li>
+          <li>Sysmon</li>
         </ul>
       </div>
       <div class="skill-cat">
